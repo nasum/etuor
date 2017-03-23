@@ -1,0 +1,26 @@
+{
+  "name": "etuor",
+  "version": "1.0.0",
+  "description": "etuor is frontend router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasum/etuor.git"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "nasum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasum/etuor/issues"
+  },
+  "homepage": "https://github.com/nasum/etuor#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "path-to-regexp": "^1.7.0"
+  }
+}
