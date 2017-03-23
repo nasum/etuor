@@ -1,12 +1,12 @@
 import pathToRegexp from 'path-to-regexp';
 import _ from 'lodash';
 
-export default class Router {
+export default class Etour {
   constructor() {
     this.routes = [];
   }
 
-  addRoute(path, func) {
+  on(path, func) {
     this.routes.push(new Route(path, func))
   }
 
